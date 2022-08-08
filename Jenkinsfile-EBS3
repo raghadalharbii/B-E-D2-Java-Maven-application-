@@ -3,7 +3,7 @@ pipeline {
     environment {
         AWS_ACCESS_KEY_ID     = credentials('raghad-aws-secret-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('raghad-aws-secret-access-key')
-        ARTIFACT_NAME = 'raghad-Belt2D2-artifacts-123456.war'
+        ARTIFACT_NAME = 'raghad-Belt2D2-artifacts-123456.jar'
         AWS_S3_BUCKET = 'raghad-belt2d2-s3'
         AWS_EB_APP_NAME = 'raghad-java-app'
         AWS_EB_ENVIRONMENT = 'Raghadjavaapp-env'
