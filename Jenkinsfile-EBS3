@@ -5,8 +5,8 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('raghad-aws-secret-access-key')
         ARTIFACT_NAME = 'raghad-Belt2D2-artifacts-123456.jar'
         AWS_S3_BUCKET = 'raghad-belt2d2-s3'
-        AWS_EB_APP_NAME = 'raghad-java-app'
-        AWS_EB_ENVIRONMENT = 'Raghadjavaapp-env'
+        AWS_EB_APP_NAME = 'raghad-app-java'
+        AWS_EB_ENVIRONMENT = 'Raghadappjava-env'
         AWS_EB_APP_VERSION = "${BUILD_ID}"
     } 
     stages {
