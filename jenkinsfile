@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        AWS_ACCESS_KEY_ID     = credentials('raghad-aws-secret-key-id')
-        AWS_SECRET_ACCESS_KEY = credentials('raghad-aws-secret-access-key')
+        AWS_ACCESS_KEY_ID     = credentials('jenkins-access-key-id')
+        AWS_SECRET_ACCESS_KEY = credentials('jenkins-secret-access-key')
         ARTIFACT_NAME = 'raghad-belt2d2-artifacts-123456.jar'
         AWS_S3_BUCKET = 'raghad-belt2d2-s3'
         AWS_EB_APP_NAME = 'raghad-app-java'
